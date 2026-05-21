@@ -1,0 +1,47 @@
+.profile-heading {
+    font-size: 1.75rem; /* Larger heading size */
+    font-weight: bold;
+  }
+   
+  .large-font {
+    font-size: 1.1rem; /* Larger font size for content */
+    line-height: 1.5;
+    color: #333;
+  }
+   
+  .card {
+    transition: all 0.3s ease;
+  }
+   
+  .card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+   
+  .card-body {
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+   
+  .card-header {
+    padding: 1.5rem;
+  }
+   
+  .card-header .profile-heading {
+    font-size: 1.8rem; /* Heading in the card is larger */
+  }
+   
+  .card-body p {
+    font-size: 1.1rem;
+  }
+   
+  .card-header .bg-primary {
+    background-color: #4f7ff5 !important; /* Custom blue for the header */
+  }
+   
+  .border-light {
+    border-color: #ffffff !important; /* White border for the profile picture */
+  }
+   
+  img {
+    object-fit: cover;
+  }
